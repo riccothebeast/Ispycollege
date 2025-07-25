@@ -88,7 +88,7 @@ nav ul li a:hover {
 /* Hero Section Styles */
 .hero {
     padding: 80px 0;
-    background-image: url('/images/background1.jpg'); /* Update with your image path */
+    background-image: url('../images/background1.jpg'); /* Update with your image path */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -214,13 +214,13 @@ nav ul li a:hover {
 
 /* Specific Images */
 .course-item.cybersecurity .course-image {
-    background-image: url('/images/background2.jpg'); /* Update path as needed */
+    background-image: url('../images/background2.jpg'); /* Update path as needed */
 }
 .course-item.software-dev .course-image {
-    background-image: url('/images/background4.webp');
+    background-image: url('../images/background4.webp');
 }
 .course-item.web-design .course-image {
-    background-image: url('/images/background3.jpeg');
+    background-image: url('../images/background3.jpeg');
 }
 
 /* Content Section */
