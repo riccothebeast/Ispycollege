@@ -3,35 +3,83 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TechCollege - Shape Your Tech Future</title>
+    <title>Contact Us - TechPro College</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <div class="container">
-            <div class="logo">KingsCollege</div>
+            <div class="logo">TechPro College</div>
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="aboutUs.html">About Us</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <main>
-        <section class="hero">
+    <main class="contact-page">
+        <section class="contact-hero">
             <div class="container">
-                <h1>Shape Your<br><span>Tech Future</span></h1>
-                <p>Join TechCollege and embark on a transformative journey in technology. We prepare students for successful careers in the digital world with hands-on learning and industry expertise.</p>
-                <div class="cta-buttons">
-                    <a href="#" class="btn primary">Apply Now</a>
-                    <a href="#" class="btn secondary">Explore Courses</a>
-                </div>
+                <h1>Contact Us</h1>
+                <p>Get in touch with us to learn more about our programs or to schedule a campus visit.</p>
             </div>
         </section>
+
+        <div class="contact-container">
+            <section class="contact-form">
+                <h2>Send us a Message</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" rows="5" placeholder="Tell us about your interest in our programs..."></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </section>
+
+            <section class="contact-info">
+                <h2>Contact Information</h2>
+                <div class="info-card">
+                    <h3>Address</h3>
+                    <p>123 Technology Drive<br>
+                    Innovation City, IC 12345<br>
+                    United States</p>
+                    <h3>Phone</h3>
+                    <p>(555) 123-4567</p>
+                    <h3>Email</h3>
+                    <p>info@techprocollege.edu</p>
+                    <h3>Office Hours</h3>
+                    <p>Monday - Friday: 8:00 AM - 6:00 PM<br>
+                    Saturday: 9:00 AM - 4:00 PM<br>
+                    Sunday: Closed</p>
+                </div>
+                <div class="map-container">
+                    <h3>Interactive Map</h3>
+                    <p>Visit us at our campus location</p>
+                    <div class="map-placeholder">
+                        [Map would go here]
+                    </div>
+                </div>
+            </section>
+        </div>
     </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TechPro College. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
